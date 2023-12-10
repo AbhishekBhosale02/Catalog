@@ -5,18 +5,18 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const int days=22;
-    const String name='king'; 
+    const int days = 22;
+    const String name = 'king';
     return Scaffold(
-      appBar:AppBar(
-        title: Center(child: Text("ramhari app")),
+      appBar: AppBar(
+        title: Center(child: Text(" Dhanwani app")),
       ),
-        body: Center(
-          child: Container(
+      body: Center(
+        child: Container(
           child: Text("welcome to $days days app built..."),
-            ),
         ),
-        drawer:Drawer(),
-      );
+      ),
+      drawer: Drawer(),
+    );
   }
 }
